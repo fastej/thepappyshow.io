@@ -1,0 +1,317 @@
+@charset "UTF-8";
+
+#header {
+	left:0;
+	top:0;
+	width:100%;
+	height:4em;
+	background-color:rgba(255,255,255,1.00);
+	position:fixed;
+	display:flex;
+	align-items:center;
+	display:none;
+	z-index:100;
+}
+
+#testdiv {
+	z-index:0;
+	position:absolute;
+	left:0;
+	top:25em;
+	padding:0;
+	margin:0;
+	width:100%;
+	height: 20em;
+	background-color:rgba(255,255,255,1.00);
+}
+
+#testdivGrey {
+	z-index:1;
+	position:absolute;
+	left:0;
+	top:69em;
+	padding:0;
+	margin:0;
+	width:100%;
+	height: 40em;
+	background-color:rgba(255,255,255,1.00);
+}
+
+#logo {
+	
+	height:3.5em;
+	opacity:1;
+	z-index:10;
+	left:4%;
+	position:absolute;
+	top:50%;
+	margin-top:-1.75em;
+	display:none;
+}
+
+#blackStrip {
+	top:0;
+	left:0;
+	margin-top:4em;
+	width:100%;
+	height:0.1em;
+	background-color:rgba(6,232,230,1.00);
+	z-index:5;
+	display:block;
+	position:fixed;
+	display:none;
+}
+
+.headerOptionAbout {
+	width:7em;
+	height:2.5em;
+	text-align:center;
+	position:absolute;
+	top:50%;
+	margin-top:-1.25em;
+	line-height:2.5em;
+	font-family:avenir;
+	display:none;
+}
+
+.headerOptionTeam {
+	width:7em;
+	height:2.5em;
+	text-align:center;
+	position:absolute;
+	top:50%;
+	margin-top:-1.25em;
+	line-height:2.5em;
+	font-family:avenir;
+	display:none;
+}
+
+.headerOptionWorkshops {
+	width:7em;
+	height:2.5em;
+	text-align:center;
+	position:absolute;
+	top:50%;
+	margin-top:-1.25em;
+	line-height:2.5em;
+	font-family:avenir;
+	display:none;
+}
+
+.headerOptionProjects {
+	width:7em;
+	height:2.5em;
+	text-align:center;
+	position:absolute;
+	top:50%;
+	margin-top:-1.25em;
+	line-height:2.5em;
+	font-family:avenir;
+	display:none;
+}
+
+.headerOptionGallery {
+	width:7em;
+	height:2.5em;
+	text-align:center;
+	position:absolute;
+	top:50%;
+	margin-top:-1.25em;
+	line-height:2.5em;
+	font-family:avenir;
+	display:none;
+}
+
+.headerOptionContact {
+	width:7em;
+	height:2.5em;
+	text-align:center;
+	position:absolute;
+	top:50%;
+	margin-top:-1.25em;
+	line-height:2.5em;
+	font-family:avenir;
+	display:none;
+}
+
+#about {
+	left:40%;
+	z-index:13;
+	position:absolute;
+}
+
+#team {
+	left:50%;
+	z-index:13;
+	position:absolute;
+}
+
+#workshops {
+	left:60%;
+	z-index:13;
+	position:absolute;
+}
+
+#projects {
+	left:70%;
+	z-index:13;
+	position:absolute;
+}
+
+#gallery {
+	left:80%;
+	z-index:13;
+	position:absolute;
+}
+
+#contact {
+	left:90%;
+	z-index:13;
+	position:absolute;
+}
+
+.fontSize {
+	font-size:1em;
+	font-weight:400;
+}
+
+.optionLineAbout {
+	width:3.5em;
+	height:0.1em;
+	background-color:rgba(6,232,230,1.00);
+	top:90%;
+	margin: auto;
+	display:none;
+}
+
+.optionLineTeam {
+	width:3.5em;
+	height:0.1em;
+	background-color:rgba(6,232,230,1.00);
+	top:90%;
+	margin: auto;
+	display:none;
+}
+
+.optionLineWorkshops {
+	width:3.5em;
+	height:0.1em;
+	background-color:rgba(6,232,230,1.00);
+	top:90%;
+	margin: auto;
+	display:none;
+}
+
+.optionLineProjects {
+	width:3.5em;
+	height:0.1em;
+	background-color:rgba(6,232,230,1.00);
+	top:90%;
+	margin: auto;
+	display:none;
+}
+
+.optionLineGallery {
+	width:3.5em;
+	height:0.1em;
+	background-color:rgba(6,232,230,1.00);
+	top:90%;
+	margin: auto;
+	display:none;
+}
+
+.optionLineContact {
+	width:3.5em;
+	height:0.1em;
+	background-color:rgba(6,232,230,1.00);
+	top:90%;
+	margin: auto;
+	display:none;
+}
+
+
+/*body {
+	background-image:url(kane_015.JPG);
+	background-position:top;
+	background-repeat: no-repeat;
+	background-size:cover;
+} */
+
+#BGimage {
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:6;
+	width:100%;
+}
+
+#widthAdjust {
+	width:inherit;
+	position:relative;
+	top:0em;
+}
+
+#startLogo{
+	position:absolute;
+	top:40%;
+	margin-top:-5em;
+	width:22em;
+	left:48%;
+	margin-left:-11em;
+	display:none;
+}
+	
+#click {
+	position:absolute;
+	top:60%;
+	width:10em;
+	left:50%;
+	margin-left:-3em;
+	font-family:avenir;
+	font-size:1.5em;
+	opacity:0.5;
+	display:none;
+}
+	
+#para1 {
+	width:100%;
+	position:absolute;
+	z-index:-20;
+	top:0;
+	left:0;
+	display:none;
+}
+
+#para1pic {
+	width:inherit;
+	position:relative;
+	top:0;
+}
+
+#para2 {
+	width:100%;
+	position:absolute;
+	z-index:-19;
+	top:25em;
+	left:0;
+	display:none;
+}
+
+#para2pic {
+	width:inherit;
+	position:relative;
+	top:0;
+}
+
+.blueLine {
+	width:inherit;
+	height:0.1em;
+	position:absolute;
+	background-color:rgba(6,232,230,1.00);
+	display:none;
+}
+	
+.bottom {
+	bottom:0;
+}
+	
