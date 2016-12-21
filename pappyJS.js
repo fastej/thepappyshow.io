@@ -37,12 +37,12 @@ $(document).ready( function() {
 	
 $(document).ready(function(){
 	$("#startLogo").delay(200).fadeIn(1500);
-	$("#click").delay(400).fadeIn(1500);
+	$("#click").delay(400).fadeToggle(500);
 	});
 
 $(window).scroll( function(){
 		$("#header").css("opacity", "1"-0.8*($(window).scrollTop()/(300+$(window).scrollTop())));
-		$("#blackStrip").css("opacity", "1"-0.8*($(window).scrollTop()/(300+$(window).scrollTop())));
+		$("#blackStrip").css("opacity", "1"-0.99*($(window).scrollTop()/(100+$(window).scrollTop())));
 		
 });
 
@@ -79,9 +79,9 @@ $(window).bind('scroll', function(){
 		function parallaxScroll(){
 			var scrolledY = $(window).scrollTop();
 			$("#para1").css('top',((scrolledY*0.05))+"em");
-			$("#testdiv").css('top',25 - ((scrolledY*0.005)) + 'em');
-			$("#testdivGrey").css('top',69 - ((scrolledY*0.01)) + 'em');
-			$("#para2").css('top',25 + ((scrolledY*0.025))+"em");
+			$("#testdiv").css('top',30 - ((scrolledY*0.0005)) + 'em');
+			$("#testdivGrey").css('top',72 - ((scrolledY*0.01)) + 'em');
+			$("#para2").css('top',30 + ((scrolledY*0.02))+"em");
 			/*$("#BGimage").css('top', - ((scrolledY*0.01)) + 'em');*/
 		} 
 		

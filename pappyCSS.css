@@ -17,11 +17,11 @@
 	z-index:0;
 	position:absolute;
 	left:0;
-	top:25em;
+	top:30em;
 	padding:0;
 	margin:0;
 	width:100%;
-	height: 20em;
+	height: 15em;
 	background-color:rgba(255,255,255,1.00);
 }
 
@@ -29,11 +29,11 @@
 	z-index:1;
 	position:absolute;
 	left:0;
-	top:69em;
+	top:72em;
 	padding:0;
 	margin:0;
 	width:100%;
-	height: 40em;
+	height: 10em;
 	background-color:rgba(255,255,255,1.00);
 }
 
@@ -54,7 +54,7 @@
 	left:0;
 	margin-top:4em;
 	width:100%;
-	height:0.1em;
+	height:0.4em;
 	background-color:rgba(6,232,230,1.00);
 	z-index:5;
 	display:block;
@@ -177,56 +177,62 @@
 
 .optionLineAbout {
 	width:3.5em;
-	height:0.1em;
+	height:0.4em;
 	background-color:rgba(6,232,230,1.00);
-	top:90%;
 	margin: auto;
 	display:none;
+	position:relative;
+	top:-10%;
 }
 
 .optionLineTeam {
 	width:3.5em;
-	height:0.1em;
+	height:0.4em;
 	background-color:rgba(6,232,230,1.00);
-	top:90%;
 	margin: auto;
 	display:none;
+	position:relative;
+	top:-10%;
 }
 
 .optionLineWorkshops {
 	width:3.5em;
-	height:0.1em;
+	height:0.4em;
 	background-color:rgba(6,232,230,1.00);
-	top:90%;
 	margin: auto;
 	display:none;
+	position:relative;
+	top:-10%;
 }
 
 .optionLineProjects {
 	width:3.5em;
-	height:0.1em;
+	height:0.4em;
 	background-color:rgba(6,232,230,1.00);
-	top:90%;
 	margin: auto;
 	display:none;
+	position:relative;
+	top:-10%;
 }
 
 .optionLineGallery {
 	width:3.5em;
-	height:0.1em;
+	height:0.4em;
 	background-color:rgba(6,232,230,1.00);
-	top:90%;
 	margin: auto;
 	display:none;
+	position:relative;
+	top:-10%;
 }
 
 .optionLineContact {
 	width:3.5em;
-	height:0.1em;
+	height:0.4em;
 	background-color:rgba(6,232,230,1.00);
-	top:90%;
 	margin: auto;
 	display:none;
+	position:relative;
+	top:-10%;
 }
 
 
@@ -264,13 +270,14 @@
 #click {
 	position:absolute;
 	top:60%;
-	width:10em;
+	width:4em;
 	left:50%;
-	margin-left:-3em;
+	margin-left:-3.5em;
 	font-family:avenir;
 	font-size:1.5em;
-	opacity:0.5;
+	opacity:0.8;
 	display:none;
+	color:rgba(6,232,230,1.00);
 }
 	
 #para1 {
@@ -292,7 +299,7 @@
 	width:100%;
 	position:absolute;
 	z-index:-19;
-	top:25em;
+	top:30em;
 	left:0;
 	display:none;
 }
@@ -314,4 +321,3 @@
 .bottom {
 	bottom:0;
 }
-	
